@@ -1,3 +1,4 @@
+package main;
 
 /**
  * Décrivez votre classe Robe ici.
