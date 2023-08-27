@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=Robe
+comment0.text=\n\ D\u00E9crivez\ votre\ classe\ Robe\ ici.\n\n\ @author\ (votre\ nom)\n\ @version\ (un\ num\u00E9ro\ de\ version\ ou\ une\ date)\n
+comment1.params=nom
+comment1.target=Robe(java.lang.String)
+comment2.params=
+comment2.target=java.lang.String\ getNom()
+numComments=3
