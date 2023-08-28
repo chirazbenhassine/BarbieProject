@@ -1,18 +1,9 @@
 package org.dauphine;
 
-
-
-
-import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
-
-import java.io.ByteArrayOutputStream;
-import java.io.PrintStream;
 import java.util.Observable;
 import java.util.Observer;
-
 import org.junit.Test;
-
 
 public class CollectionObserverTest {
 	 @Test

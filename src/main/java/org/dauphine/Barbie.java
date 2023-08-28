@@ -34,7 +34,7 @@ public class Barbie extends Observable{
 	    public void ajouterRobe(Robe robe) {
 	        collection.add(robe);
 	        setChanged();  // Indique que l'état a changé
-	        notifyObservers(robesToString());  // Notifier les observateurs avec le changement d'état
+	        notifyObservers(robesToString());  // Notifier les observateurs 
 	    }
 
 	    public String robesToString() {
