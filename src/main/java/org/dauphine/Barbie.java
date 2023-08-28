@@ -2,9 +2,10 @@ package org.dauphine;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Observable;
 
 
-public class Barbie {
+public class Barbie extends Observable{
 	
 	 private String nom;
 	 private List<Robe> collection;
@@ -24,7 +25,7 @@ public class Barbie {
 		public void setCollection(List<Robe> collection) {
 			this.collection = collection;
 		}
-
+		
 		public Barbie(String nom) {
 	        this.nom = nom;
 	        this.collection = new ArrayList<Robe>();
@@ -32,9 +33,19 @@ public class Barbie {
 
 	    public void ajouterRobe(Robe robe) {
 	        collection.add(robe);
+	        setChanged();  // Indique que l'état a changé
+	        notifyObservers(robesToString());  // Notifier les observateurs avec le changement d'état
 	    }
 
-	    public void afficherCollection() {
+	    public String robesToString() {
+	        StringBuilder builder = new StringBuilder();
+	        for (Robe robe : collection) {
+	            builder.append("- ").append(robe.getNom()).append("\n");
+	        }
+	        return builder.toString();
+	    }
+
+		public void afficherCollection() {
 	        System.out.println("Collection de robes de " + nom + ":");
 	        for (Robe robe : collection) {
 	            System.out.print(" - " + robe.getNom());
