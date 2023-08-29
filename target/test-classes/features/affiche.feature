@@ -1,13 +1,11 @@
 @tag
 Feature: Afficher les robes
 
-  I want to use this template for my feature file
-
- 
-  Scenario Outline: 
+   
   En tant que joueur, je veux pouvoir afficher la collection complète de robes de Barbie
   Afin de voir toutes les robes que cette Barbie possède.
   
+    Scenario Outline:
     Given Barbie nommé <barbie_nom>
     #And  Une collection de robes de Barbie contient des robes <robes>
     

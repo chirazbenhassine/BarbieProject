@@ -4,6 +4,7 @@ import java.util.Observable;
 import java.util.Observer;
 
 public class CollectionObserver implements Observer{
+	
 	private String nom;
 
     public CollectionObserver(String nom) {
