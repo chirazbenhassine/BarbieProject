@@ -1,8 +1,7 @@
 @tag
 Feature: Afficher les robes
 
-   
-  En tant que joueur, je veux pouvoir afficher la collection complète de robes de Barbie
+  En tant que utilisateur, je veux pouvoir afficher la collection complète de robes de Barbie
   Afin de voir toutes les robes que cette Barbie possède.
   
     Scenario Outline:
