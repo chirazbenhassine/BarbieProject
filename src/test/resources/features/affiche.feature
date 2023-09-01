@@ -2,7 +2,7 @@
 Feature: Afficher les robes
 
   En tant que utilisateur, je veux pouvoir afficher la collection complète de robes de Barbie
-  Afin de voir toutes les robes que cette Barbie possède.
+  Afin de voir toutes les robes
   
     Scenario Outline:
     Given Barbie nommé <barbie_nom>

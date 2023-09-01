@@ -1,7 +1,7 @@
 @tag 
 Feature: Ajout
  
- En tant que joueur, je veux ajouter le nom de robe afin de mettre à jour ma collection. 
+ En tant que utilisateur, je veux ajouter le nom de robe afin de mettre à jour ma collection. 
 
   Scenario Outline: Ajouter une robe
     Given Une barbie nommé <barbie_nom>
