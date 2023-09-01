@@ -6,6 +6,7 @@ import java.util.Observer;
 import org.junit.Test;
 
 public class CollectionObserverTest {
+	
 	 @Test
 	   public void testAjouterRobeNotifiesObservers() {
 	        Barbie barbie = new Barbie("barbie");

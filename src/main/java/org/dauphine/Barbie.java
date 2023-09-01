@@ -48,6 +48,6 @@ public class Barbie extends Observable{
 		public void afficherCollection() {
 	        System.out.println("Collection de robes de " + nom + ":");
 	        for (Robe robe : collection) {
-	            System.out.print(" - " + robe.getNom());
+	            System.out.println("- " + robe.getNom());
 	        }}
 }
